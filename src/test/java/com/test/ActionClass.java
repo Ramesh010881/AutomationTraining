@@ -59,7 +59,7 @@ public class ActionClass {
 		      
 		      r.keyPress(KeyEvent.VK_TAB);
 		      r.keyRelease(KeyEvent.VK_TAB);
-							
+		System.out.println("test");				
 			
 		}
 		catch(Exception e) {
