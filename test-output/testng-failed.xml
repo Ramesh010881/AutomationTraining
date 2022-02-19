@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.test.AlertsAndPopups">
+        <methods>
+          <include name="alertsPopup"/>
+        </methods>
+      </class> <!-- com.test.AlertsAndPopups -->
+      <class name="com.test.DropDown">
+        <methods>
+          <include name="dropdown"/>
+        </methods>
+      </class> <!-- com.test.DropDown -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

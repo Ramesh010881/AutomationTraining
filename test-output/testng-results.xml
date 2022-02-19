@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T06:17:13 IST" name="Suite" finished-at="2022-02-17T06:18:12 IST" duration-ms="58621">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T06:17:13 IST" name="Test" finished-at="2022-02-17T06:18:12 IST" duration-ms="58621">
+      <class name="com.test.CheckBoxes">
+        <test-method signature="checkBoxes()[pri:0, instance:com.test.CheckBoxes@4a003cbe]" started-at="2022-02-17T06:17:13 IST" name="checkBoxes" finished-at="2022-02-17T06:17:50 IST" duration-ms="36917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxes -->
+      </class> <!-- com.test.CheckBoxes -->
+      <class name="com.test.ActionClass">
+        <test-method signature="actionClass()[pri:0, instance:com.test.ActionClass@5890e879]" started-at="2022-02-17T06:17:13 IST" name="actionClass" finished-at="2022-02-17T06:18:12 IST" duration-ms="58521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionClass -->
+      </class> <!-- com.test.ActionClass -->
+      <class name="com.test.DropDown">
+        <test-method signature="dropdown()[pri:0, instance:com.test.DropDown@4082ba93]" started-at="2022-02-17T06:17:13 IST" name="dropdown" finished-at="2022-02-17T06:17:37 IST" duration-ms="23558" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-UH7TE2ML', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd9c43c5b2d4891359634cee38d0745c
+*** Element info: {Using=id, value=user-name}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-UH7TE2ML', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd9c43c5b2d4891359634cee38d0745c
+*** Element info: {Using=id, value=user-name}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at com.test.DropDown.dropdown(DropDown.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+      </class> <!-- com.test.DropDown -->
+      <class name="com.test.AlertsAndPopups">
+        <test-method signature="alertsPopup()[pri:0, instance:com.test.AlertsAndPopups@76494737]" started-at="2022-02-17T06:17:13 IST" name="alertsPopup" finished-at="2022-02-17T06:18:12 IST" duration-ms="58585" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-UH7TE2ML', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca37e4cb15d72039846f2efaabd8f594]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-UH7TE2ML', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca37e4cb15d72039846f2efaabd8f594
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
+at com.test.AlertsAndPopups.alertsPopup(AlertsAndPopups.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsPopup -->
+      </class> <!-- com.test.AlertsAndPopups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
